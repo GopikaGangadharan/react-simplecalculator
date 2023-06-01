@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.heading{
+  display: flex;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  background-color: white;
+  width: 550px;
+  border-radius: 8px;
+  padding: 1.6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.total_card{
+  margin-left: 45px;
+  width: 450px;
+  height: 110px;
+  margin-top: 20px;
+  background-color: skyblue;
+}
+.card_text{
+  padding-top: 30px;
+}
+.result{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+
+.input_field{
+  margin-top: 30px;
+  width: 450px;
+  margin-left: 45px;
+}
+#outlined-basic{
+  width: 425px;
+}
+.btn_group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.btn{
+  width: 100px;
+  height: 60px;
+}
+span{
+  font-size: 2rem;
+}
+.btnbtn{
+  width: 100px;
+  height: 60px;
 }
